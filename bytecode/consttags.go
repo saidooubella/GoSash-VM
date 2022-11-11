@@ -1,0 +1,13 @@
+// AUTO GENERATED - DO NOT MODIFY
+package bytecode
+
+type ConstTag uint8
+
+const (
+	TAG_INTEGER_CONST ConstTag = iota
+	TAG_DOUBLE_CONST
+	TAG_STRING_CONST
+	TAG_FLOAT_CONST
+	TAG_LONG_CONST
+	TAG_FUN_CONST
+)
